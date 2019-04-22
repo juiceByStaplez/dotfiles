@@ -5,6 +5,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="/Users/dev/.oh-my-zsh"
 alias airport="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport"
 alias vi="mvim -v"
+
+alias esource="vi ~/.zshrc"
+alias resource="source ~/.zshrc"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
